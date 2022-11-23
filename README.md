@@ -92,20 +92,12 @@ lrwxrwxrwx. 1 vagrant vagrant    4 Nov 21 20:18 link_test -> test
 3. 명령어를 다루는 명령어
 
 1) type - type 명령은 명령 유형에 대한 정보를 표시하는 데 사용됩니다. 명령줄에 입력한 경우 지정된 명령을 해석하는 방법이 표시됩니다.
-            타입은 Bash와 Zsh와 Ksh와 같은 다른 쉘에 내장된 쉘입니다.
 
-BASH
-type test
+$ type cp
 
-  test is a shell builtin
+[vagrant@host1 bitcamp-ncp]$ type cp
 
-type cp
-
-  cp is aliased to `cp -i'
-
-type find
-
-  find is /bin/find
+cp is hashed (/usr/bin/cp)
 
 
 2) which - which는 특정명령어의 위치를 찾아주는 명령어이다.
